@@ -1,73 +1,68 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="4" failures="0" name="TestSuite" time="0.011" errors="0" skipped="0">
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="5.891" tests="5" errors="0" skipped="0" failures="0">
   <properties>
-    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
-    <property name="Test" value="class1test"/>
-    <property name="java.vm.version" value="11.0.12+7"/>
-    <property name="sun.boot.library.path" value="C:\Program Files\Eclipse Foundation\jdk-11.0.12.7-hotspot\bin"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\Users\gvikrams\eclipse-workspace\Git Demo\NewMavenProject"/>
-    <property name="java.vm.vendor" value="Eclipse Foundation"/>
-    <property name="java.vendor.url" value="https://adoptium.net/"/>
-    <property name="guice.disable.misplaced.annotation.check" value="true"/>
-    <property name="path.separator" value=";"/>
-    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
-    <property name="sun.os.patch.level" value=""/>
-    <property name="user.script" value=""/>
-    <property name="user.country" value="IN"/>
-    <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\Users\gvikrams\eclipse-workspace\Git Demo\NewMavenProject"/>
-    <property name="java.vm.compressedOopsMode" value="Zero based"/>
-    <property name="java.runtime.version" value="11.0.12+7"/>
-    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="os.arch" value="amd64"/>
-    <property name="java.io.tmpdir" value="C:\Users\gvikrams\AppData\Local\Temp\"/>
-    <property name="line.separator" value="
-"/>
-    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="user.variant" value=""/>
-    <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\Users\gvikrams\apache-maven-3.8.5\bin\m2.conf"/>
-    <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Eclipse Foundation\jdk-11.0.12.7-hotspot\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Eclipse Foundation\jdk-11.0.12.7-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\gvikrams\AppData\Local\Microsoft\WindowsApps;C:\Users\gvikrams\AppData\Local\Programs\Git\cmd;C:\Users\gvikrams\apache-maven-3.8.5\bin;C:\Program Files\Eclipse Foundation\jdk-11.0.12.7-hotspot\bin;;."/>
-    <property name="maven.conf" value="C:\Users\gvikrams\apache-maven-3.8.5/conf"/>
-    <property name="jdk.debug" value="release"/>
-    <property name="java.class.version" value="55.0"/>
-    <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="os.version" value="10.0"/>
-    <property name="library.jansi.path" value="C:\Users\gvikrams\apache-maven-3.8.5\lib\jansi-native"/>
-    <property name="user.home" value="C:\Users\gvikrams"/>
-    <property name="user.timezone" value="Asia/Calcutta"/>
-    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
-    <property name="file.encoding" value="Cp1252"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
     <property name="java.specification.version" value="11"/>
-    <property name="user.name" value="gvikrams"/>
-    <property name="java.class.path" value="C:\Users\gvikrams\apache-maven-3.8.5\boot\plexus-classworlds-2.6.0.jar"/>
-    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\gvikrams\eclipse-workspace\Git Demo\NewMavenProject\target\test-classes;C:\Users\gvikrams\eclipse-workspace\Git Demo\NewMavenProject\target\classes;C:\Users\gvikrams\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\gvikrams\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\gvikrams\.m2\repository\org\seleniumhq\selenium\selenium-java\3.6.0\selenium-java-3.6.0.jar;C:\Users\gvikrams\.m2\repository\org\seleniumhq\selenium\selenium-api\3.6.0\selenium-api-3.6.0.jar;C:\Users\gvikrams\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.6.0\selenium-chrome-driver-3.6.0.jar;C:\Users\gvikrams\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.6.0\selenium-edge-driver-3.6.0.jar;C:\Users\gvikrams\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.6.0\selenium-firefox-driver-3.6.0.jar;C:\Users\gvikrams\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.6.0\selenium-ie-driver-3.6.0.jar;C:\Users\gvikrams\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.6.0\selenium-opera-driver-3.6.0.jar;C:\Users\gvikrams\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.6.0\selenium-remote-driver-3.6.0.jar;C:\Users\gvikrams\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.6.0\selenium-safari-driver-3.6.0.jar;C:\Users\gvikrams\.m2\repository\org\seleniumhq\selenium\selenium-support\3.6.0\selenium-support-3.6.0.jar;C:\Users\gvikrams\.m2\repository\net\bytebuddy\byte-buddy\1.7.5\byte-buddy-1.7.5.jar;C:\Users\gvikrams\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\gvikrams\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\gvikrams\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\gvikrams\.m2\repository\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar;C:\Users\gvikrams\.m2\repository\com\google\guava\guava\23.0\guava-23.0.jar;C:\Users\gvikrams\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\gvikrams\.m2\repository\com\google\errorprone\error_prone_annotations\2.0.18\error_prone_annotations-2.0.18.jar;C:\Users\gvikrams\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\gvikrams\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\gvikrams\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\gvikrams\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\gvikrams\.m2\repository\net\java\dev\jna\jna\4.1.0\jna-4.1.0.jar;C:\Users\gvikrams\.m2\repository\net\java\dev\jna\jna-platform\4.1.0\jna-platform-4.1.0.jar;C:\Users\gvikrams\.m2\repository\org\testng\testng\6.11\testng-6.11.jar;C:\Users\gvikrams\.m2\repository\com\beust\jcommander\1.64\jcommander-1.64.jar;C:\Users\gvikrams\.m2\repository\org\yaml\snakeyaml\1.17\snakeyaml-1.17.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Foundation"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -DTest=class1test test"/>
-    <property name="java.home" value="C:\Program Files\Eclipse Foundation\jdk-11.0.12.7-hotspot"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Eclipse Foundation\jdk-11.0.12.7-hotspot\bin"/>
+    <property name="sun.java.command" value="C:\Users\gvikrams\AppData\Local\Temp\surefire8977150635605403561\surefirebooter1428587927312067022.jar C:\Users\gvikrams\AppData\Local\Temp\surefire8977150635605403561 2022-05-12T16-39-03_583-jvmRun1 surefire1818095124621527050tmp surefire_01855427063934410269tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\gvikrams\eclipse-workspace\Git Demo\NewMavenProject\target\test-classes;C:\Users\gvikrams\eclipse-workspace\Git Demo\NewMavenProject\target\classes;C:\Users\gvikrams\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\gvikrams\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\gvikrams\.m2\repository\org\seleniumhq\selenium\selenium-java\3.6.0\selenium-java-3.6.0.jar;C:\Users\gvikrams\.m2\repository\org\seleniumhq\selenium\selenium-api\3.6.0\selenium-api-3.6.0.jar;C:\Users\gvikrams\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.6.0\selenium-chrome-driver-3.6.0.jar;C:\Users\gvikrams\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.6.0\selenium-edge-driver-3.6.0.jar;C:\Users\gvikrams\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.6.0\selenium-firefox-driver-3.6.0.jar;C:\Users\gvikrams\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.6.0\selenium-ie-driver-3.6.0.jar;C:\Users\gvikrams\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.6.0\selenium-opera-driver-3.6.0.jar;C:\Users\gvikrams\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.6.0\selenium-remote-driver-3.6.0.jar;C:\Users\gvikrams\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.6.0\selenium-safari-driver-3.6.0.jar;C:\Users\gvikrams\.m2\repository\org\seleniumhq\selenium\selenium-support\3.6.0\selenium-support-3.6.0.jar;C:\Users\gvikrams\.m2\repository\net\bytebuddy\byte-buddy\1.7.5\byte-buddy-1.7.5.jar;C:\Users\gvikrams\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\gvikrams\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\gvikrams\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\gvikrams\.m2\repository\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar;C:\Users\gvikrams\.m2\repository\com\google\guava\guava\23.0\guava-23.0.jar;C:\Users\gvikrams\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\gvikrams\.m2\repository\com\google\errorprone\error_prone_annotations\2.0.18\error_prone_annotations-2.0.18.jar;C:\Users\gvikrams\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\gvikrams\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\gvikrams\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\gvikrams\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\gvikrams\.m2\repository\net\java\dev\jna\jna\4.1.0\jna-4.1.0.jar;C:\Users\gvikrams\.m2\repository\net\java\dev\jna\jna-platform\4.1.0\jna-platform-4.1.0.jar;C:\Users\gvikrams\.m2\repository\org\testng\testng\6.11\testng-6.11.jar;C:\Users\gvikrams\.m2\repository\com\beust\jcommander\1.64\jcommander-1.64.jar;C:\Users\gvikrams\.m2\repository\org\yaml\snakeyaml\1.17\snakeyaml-1.17.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\gvikrams"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
-    <property name="java.vm.info" value="mixed mode"/>
-    <property name="java.version" value="11.0.12"/>
-    <property name="java.vendor" value="Eclipse Foundation"/>
-    <property name="sun.stderr.encoding" value="cp437"/>
-    <property name="maven.home" value="C:\Users\gvikrams\apache-maven-3.8.5"/>
-    <property name="file.separator" value="\"/>
     <property name="java.version.date" value="2021-07-20"/>
-    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
-    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.home" value="C:\Program Files\Eclipse Foundation\jdk-11.0.12.7-hotspot"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\gvikrams\eclipse-workspace\Git Demo\NewMavenProject"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\gvikrams\AppData\Local\Temp\surefire8977150635605403561\surefirebooter1428587927312067022.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.12+7"/>
+    <property name="user.name" value="gvikrams"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
     <property name="java.vendor.version" value="Temurin-11.0.12+7"/>
-    <property name="sun.stdout.encoding" value="cp437"/>
-    <property name="sun.desktop" value="windows"/>
-    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="localRepository" value="C:\Users\gvikrams\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\gvikrams\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.12"/>
+    <property name="user.dir" value="C:\Users\gvikrams\eclipse-workspace\Git Demo\NewMavenProject"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Eclipse Foundation\jdk-11.0.12.7-hotspot\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Eclipse Foundation\jdk-11.0.12.7-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\gvikrams\AppData\Local\Microsoft\WindowsApps;C:\Users\gvikrams\AppData\Local\Programs\Git\cmd;C:\Users\gvikrams\apache-maven-3.8.5\bin;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Eclipse Foundation"/>
+    <property name="java.vm.version" value="11.0.12+7"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase classname="DRYRUNFORMAVEN1.NewMavenProject.class1Test" name="Test1" time="0.005"/>
-  <testcase classname="DRYRUNFORMAVEN1.NewMavenProject.class1Test" name="Test2" time="0.002"/>
-  <testcase classname="DRYRUNFORMAVEN1.NewMavenProject.class2Test" name="Test3" time="0.004"/>
-  <testcase classname="DRYRUNFORMAVEN1.NewMavenProject.class2Test" name="Test4" time="0"/>
+  <testcase name="Test3" classname="DRYRUNFORMAVEN1.NewMavenProject.class2Test" time="0.005"/>
+  <testcase name="Test4" classname="DRYRUNFORMAVEN1.NewMavenProject.class2Test" time="0"/>
+  <testcase name="Test1" classname="DRYRUNFORMAVEN1.NewMavenProject.class1Test" time="0.004"/>
+  <testcase name="Test2" classname="DRYRUNFORMAVEN1.NewMavenProject.class1Test" time="0.002"/>
+  <testcase name="seleniumtest" classname="DRYRUNFORMAVEN1.NewMavenProject.Selenium1" time="4.366"/>
 </testsuite>

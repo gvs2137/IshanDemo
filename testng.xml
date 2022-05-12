@@ -5,6 +5,8 @@
     <classes>
       <class name="DRYRUNFORMAVEN1.NewMavenProject.class2Test"/>
    <class name="DRYRUNFORMAVEN1.NewMavenProject.class1Test"/>
+   <class name="DRYRUNFORMAVEN1.NewMavenProject.Selenium1"/>
+   
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
